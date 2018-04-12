@@ -1,0 +1,56 @@
+[0mMicrosoft Windows [version 6.1.7601][0K[?25l
+Copyright (c) 2009 Microsoft Corporation. Tous droits réservés.[0K
+[0K
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>[0K[?25h^V[0K[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>[0K[?25hgit remote add origin https://lisbp.fr/scm/dinclaux/Heatmap.git[0K]0;  - git  remote add origin https://lisbp.fr/scm/dinclaux/Heatmap.git[?25l
+[0K[?25h]0; fatal: Not a git repository (or any of the parent directories): .git[0K[?25l
+[0K
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>[0K[?25h^V[0K[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>[0K[?25h]0;  - git  inittouch README.md[0K[?25l
+'touch' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git init[0K
+[0K[?25h]0;  - git  add README.mdInitialized empty Git repository in D:/Users/dinclaux/Documents/Labo/Données/Script/Heatmap/.git/[0K[?25l
+[0K
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git add README.md[0K
+[0K[?25h]0;  - git  commit -m "first commit"fatal: pathspec 'README.md' did not match any files[0K[?25l
+[0K
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git commit -m "first commit"[0K
+[0K[?25h]0;  - git  remote add origin https://lisbp.fr/scm/dinclaux/Heatmap.gitOn branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Untracked files:[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mHeatmap plotly/[0m[0K
+        [0;31mHeatmap.Rproj[0m[0K
+        [0;31mHeatmap/[0m[0K
+        [0;31mHeatmap2/[0m[0K
+        [0;31mHeatmap3/[0m[0K
+[0K
+nothing added to commit but untracked files present[0K
+[0K
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heatmap.git[0K
+[0K[?25h]0; [?25l
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git push -u origin master[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heatmap.git[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heatmap.gi[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heatmap.g[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heatmap.[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heatmap[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heatma[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heatm[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Heat[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/Hea[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/He[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/H[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux/[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclaux[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinclau[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dincl[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/dinc[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/din[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/di[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/d[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm/[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/scm[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/sc[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/s[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr/[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.fr[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.f[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisbp.[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lisb[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://lis[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://li[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://l[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https://[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https:/[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https:[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin https[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin http[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin htt[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin ht[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origin[0K[79G[?25h[78G[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add origi[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add orig[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add or[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add o[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote add[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote ad[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote a[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remote[0K[68G[?25h[67G[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git remo[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git rem[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git re[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git r[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git[0K[61G[?25h[60G[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>gi[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>g[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>[0K[?25hgit push -u origin master[0K]0;  - git  push -u origin master[?25l
+[0K[?25herror: src refspec master does not match any.[0K[?25l
+error: failed to push some refs to 'https://lisbp.fr/scm/dinclaux/Heatmap.git'[0K
+[0K[?25h]0; [?25l
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>[0K[?25hg[0Ki[0Kt[0K[61G[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git a[0K[?25hd[0Kd[0K[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git ad[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git a[0K[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git[0K[61G[?25h[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git s[0K[?25ht[0Ka[0Kt[0Ku[0Kt[0K[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git statu[0K[?25hs[0K]0;  - git  status[?25l
+[0K[?25h]0; On branch master[0K[?25l
+[0K
+No commits yet[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31m.gitignore[0m[0K
+        [0;31mHeatmap plotly/[0m[0K
+        [0;31mHeatmap/[0m[0K
+        [0;31mHeatmap2/[0m[0K
+        [0;31mHeatmap3/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K
+D:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>[0K[?25hg[0Ki[0Kt[0K[61G[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git a[0K[?25hd[0Kd[0K[65G[?25lD:\Users\dinclaux\Documents\Labo\Données\Script\Heatmap>git add .[0K[?25h]0;  - git  add .[?25l
+[0K[?25h
