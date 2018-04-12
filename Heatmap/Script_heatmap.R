@@ -9,7 +9,7 @@ library(grDevices)
 ################################################
 
 setwd("~/Labo/Données/Script/Heatmap/Heatmap")
-data <- read.csv("exemple.csv", header=T, stringsAsFactors=F,sep=";",dec = ".")
+data <- read.csv("Example.csv", header=T, stringsAsFactors=F,sep=";",dec = ".")
 rnames <- data[,1]
 
 ################################################

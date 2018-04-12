@@ -22,7 +22,7 @@ if (!require("RColorBrewer")) {
 #############################################################
 
 setwd("~/Labo/Données/Script/Heatmap/Heatmap2")
-data <- read.table("M9tot.txt", header=TRUE, stringsAsFactors=FALSE,dec = ",")
+data <- read.table("Example.txt", header=TRUE, stringsAsFactors=FALSE,dec = ",")
 rnames <- unique(data[,1] ) # assign labels in column 1 to "rnames"
 data<- abs(as.matrix(data[,2:ncol(data)]))
 nb <- sum(table((unique(rnames))))
