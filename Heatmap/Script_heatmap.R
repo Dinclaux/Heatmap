@@ -8,7 +8,7 @@ library(grDevices)
 ### Input the data                           ###
 ################################################
 
-setwd("U:/Labo/Données/Script/Heatmap")
+setwd("~/Labo/DonnÃ©es/Script/Heatmap/Heatmap")
 data <- read.csv("exemple.csv", header=T, stringsAsFactors=F,sep=";",dec = ".")
 rnames <- data[,1]
 
@@ -24,4 +24,5 @@ col_breaks = c(seq(-1,0,length=200),          # for red
 mat_data <- as.matrix(data[,2:ncol(data)])
 rownames(mat_data) <- rnames
 heatmap(as.matrix(mat_data), Rowv=NA, Colv=NA, col = my_palette, scale="column", margins=c(6,5),
-        xlab = "Métabolites (mM)", ylab =  "Souches", main = "IP")
+        xlab = "M?tabolites (mM)", ylab =  "Souches", main = "IP")
+

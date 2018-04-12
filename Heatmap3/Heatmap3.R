@@ -19,7 +19,7 @@ if (!require("GMD")) {
 #############################################################
 
 
-setwd("D:/Documents/Données/Script/Heatmap3")
+setwd("~/Labo/DonnÃ©es/Script/Heatmap/Heatmap3")
 data <- read.csv("exemple.csv", header=T, stringsAsFactors=F,sep=";",dec = ".")
 rnames <- data[,1]  # assign labels in column 1 to "rnames"
 mat_data <- as.matrix(data[,2:ncol(data)])
@@ -43,5 +43,4 @@ heatmap.3(mat_data,
           keysize = 1.5,
           main = "Exemple",
           key = TRUE
-          colsi
           )

@@ -21,7 +21,7 @@ if (!require("RColorBrewer")) {
 ### Reading in data and transform it into matrix format   ###
 #############################################################
 
-setwd("~/Labo/Données/Script/Heatmap2")
+setwd("~/Labo/DonnÃ©es/Script/Heatmap/Heatmap2")
 data <- read.table("M9tot.txt", header=TRUE, stringsAsFactors=FALSE,dec = ",")
 rnames <- unique(data[,1] ) # assign labels in column 1 to "rnames"
 data<- abs(as.matrix(data[,2:ncol(data)]))

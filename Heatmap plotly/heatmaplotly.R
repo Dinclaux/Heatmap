@@ -24,7 +24,7 @@ if (!require("htmlwidgets")) {
 #############################################################
 
 
-setwd("~/Labo/Données/Script/Heatmap plotly")
+setwd("~/Labo/DonnÃ©es/Script/Heatmap/Heatmap plotly")
 data <- read.csv(file = "AAC20ULLog2.csv", dec = ",", sep = ";", header = FALSE)
 
 y <- as.list(data[,1])
