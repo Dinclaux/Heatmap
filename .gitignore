@@ -1,6 +1,10 @@
-Heatmap.Rproj
-.Rproj.user/
-Heatmap/secret/
-Heatmap2/secret/
-Heatmap3/secret/
-Heatmap plotly/secret/
+*
+!*/Heatmap/Example.csv
+!*/Heatmap plotly/Example.csv
+!*/Heatmap plotly/heatmaplotly.R
+!*/Heatmap/Script_heatmap.R
+!*/Heatmap2/Heatmap2.R
+!*/Heatmap2/Example.txt
+!*/Heatmap2/Heatmap.html
+!*/Heatmap3/Heatmap3.R
+!*/Heatmap3/Exemple.csv

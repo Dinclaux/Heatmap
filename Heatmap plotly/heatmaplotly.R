@@ -2,6 +2,9 @@
 #new heatmap project with a plotly script
 
 
+# Reinitialize the session
+rm(list=ls(all=TRUE))
+
 
 #########################################################
 ### Installing and loading required packages          ###
@@ -13,9 +16,9 @@ if (!require("plotly")) {
   library(plotly)
 }
 
-if (!require("htmlwidgets")) {
-  install.packages("htmlwidgets", dependencies = TRUE)
-  library(htmlwidgets)
+if (!require("RColorBrewer")) {
+  install.packages("RColorBrewer", dependencies = TRUE)
+  library(RColorBrewer)
 }
 
 
@@ -24,13 +27,16 @@ if (!require("htmlwidgets")) {
 #############################################################
 
 
-setwd("~/Labo/Données/Script/Heatmap/Heatmap plotly")
-data <- read.csv(file = "AAC20ULLog2.csv", dec = ",", sep = ";", header = FALSE)
+setwd("~/Labo/Données/Script/Heatmap/Heatmap2")
+data <- read.table("Papier1.txt", header=TRUE, stringsAsFactors=FALSE,dec = ",", sep = "\t")
+
+
+
+col <- brewer.pal(n = 5, name = "YlOrRd")
 
 y <- as.list(data[,1])
 
-x<-as.character(round(x = data[1,2:ncol(data)],
-                       digits = 2))
+x<-colnames(data[,2:ncol(data)])
 x <- as.factor(x)
 
 t <- list(
@@ -43,19 +49,20 @@ p <- plot_ly(z = as.matrix(data[,2:ncol(data)]),
               type = "heatmap",
               showscale = TRUE, 
               transpose = FALSE,
-              zmax = NA,
-              zmin = NA,
-              y = y,
+              zmax = 2,
+              zmin = 0,
+             y = y,
               x = x,
-             yaxis = 1,
+              yaxis = 1,
               zsmooth = FALSE,
               hoverinfo = "all",
               colorbar = list(yanchor= "middle",
                               showticklabels = TRUE,
                               lenmode = "pixels",
                               title= "Scale",
-                              ticks = "outside"))
-p<- layout(p,
+                              ticks = "outside"),
+             colors= col)
+p <- layout(p,
             title = "",
             xaxis = list(title = "",
                          showgrid = FALSE,
@@ -76,9 +83,3 @@ p<- layout(p,
 
   
 p
-
-#########################################################
-###                  save HTML file                   ###
-#########################################################
-
-saveWidget(p, "Heatmap.html")

@@ -3,13 +3,15 @@
 ################################################
 library(graphics)
 library(grDevices)
-
+# Reinitialize the session
+rm(list=ls(all=TRUE))
 ################################################
 ### Input the data                           ###
 ################################################
 
-setwd("~/Labo/Données/Script/Heatmap/Heatmap")
-data <- read.csv("Example.csv", header=T, stringsAsFactors=F,sep=";",dec = ".")
+setwd("~/Labo/Données/Script/Heatmap/Heatmap2")
+data <- read.table("Papier1.txt", header=TRUE, stringsAsFactors=FALSE,dec = ",", sep = "\t")
+
 rnames <- data[,1]
 
 ################################################
